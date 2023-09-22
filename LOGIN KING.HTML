@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    
+body { 
+    background-color: gray;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: #FF4136;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Style for a link (e.g., forgot password or registration) */
+.link {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+}
+</style>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link to your own CSS file for styling -->
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login.php" method="POST">
+            <div class="input-container">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-container">
+                <input type="submit" value="Login">
+            </div>
+            <nav>
+                <ul>
+                <li><a href="KINGS BAR.HTML"> MAIN Menu</a></li>
+                 <li><a href="BUY HERE.HTML">NEXT</a></li>
+                 <li><a href="KINGS BAR.HTML">BACK</a></li>
+        
+                </ul>
+            </nav>
+        </form>
+    </div>
+</body>
+</html>
